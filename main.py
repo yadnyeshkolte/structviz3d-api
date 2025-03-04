@@ -1,8 +1,8 @@
+import os
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 import tempfile
-import os
 import uuid
 import shutil
 import trimesh
@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 # Create temporary directory for file storage
-TEMP_DIR = "temp_files"
+TEMP_DIR = os.path.join(os.getcwd(), 'public', 'temp_files')
 os.makedirs(TEMP_DIR, exist_ok=True)
 
 
