@@ -1,0 +1,16 @@
+name = "stl-converter"
+main = "worker.py"
+compatibility_date = "2024-02-01"
+
+# Enable Python Workers support
+compatibility_flags = ["python_workers"]
+
+[build]
+command = "pip install -r requirements.txt"
+
+[vars]
+PYTHONPATH = "."
+
+# Python-specific configuration
+[python]
+runtime = "3.10"

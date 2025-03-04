@@ -1,6 +1,6 @@
 fastapi
-uvicorn
+mangum
 trimesh
-pygltflib
-shapely
 numpy
+uvicorn
+python-multipart
