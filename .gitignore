@@ -2,3 +2,5 @@ __pycache__/
 temp_files/
 .env
 .venv/
+.gitlab-ci.yml
+.idea/
