@@ -1,4 +1,4 @@
-# StructViz3D API: Advanced 3D Model Conversion Service
+# StructViz3D API: 3D Model Conversion Service
 
 ## Project Overview
 
