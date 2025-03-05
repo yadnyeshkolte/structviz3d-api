@@ -5,3 +5,4 @@ pygltflib
 shapely
 numpy
 gunicorn
+python-multipart
